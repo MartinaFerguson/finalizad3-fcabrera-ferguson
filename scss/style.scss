@@ -1,0 +1,151 @@
+@import'../scss/base/_extends';
+@import'../scss/base/_mixin';
+@import '../scss/base/_maps';
+
+body,.card{
+    padding: 0;
+    margin: 0;
+    @extend %fuente;
+    background: url(../img-bootsrap/fondo4.jpg);
+    /*background: map-get($general, bg-body);*/
+    background-size: cover;
+    }
+    .card-body .card .logo, h1, h2{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .logo{
+        height: 250px;
+        width: 250px;
+        opacity: 0.5;
+    }
+    
+    h1, h2, h3{
+        font-size: 90px;
+        @extend %fuente;
+    }
+
+    .red-social{
+        text-align: center;
+        a{
+            @extend %estiloDeListas;
+        }
+        a:hover{
+            padding: 2px 6px;
+            border-radius: 4px;
+            transition: 0,5s;
+        }
+        .fa-brands{
+            @include faBrands;
+        }
+    }
+    .nav{
+        background-color: map-get($general, bg-nav);
+        margin-bottom: 50px;
+        .nav-link{
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+        .text-sm-center{
+            color:white;
+            font-weight: 400;
+            font-size: 30px;
+            @extend %estiloDeListas;
+        }
+        .text-sm-center:hover,
+        .nav-link_active{
+            padding: 6px 10px;
+            border-radius: 4px;
+            background-color: map-get($general, bg-navLink);
+            transition: 0.5s;
+
+        }
+        .nav-toggle{
+            color: antiquewhite;
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding-top: 10px;
+            padding-left: 10px; 
+            padding-right: 10px;
+
+            display: none;
+            /*display: block;*/
+        }
+    }
+    .bio{
+        @extend %textsmargins;
+        @extend %fuente-bio;
+
+    }
+
+    .timelapses{
+        margin: 80px;
+        padding-bottom: 60px;
+        align-items: center;
+
+
+    }
+
+    #galeria{
+        @extend %margins;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        img:hover {
+            border: 5px solid white;
+        }
+        .col-lg-4{
+            padding: 25px;
+        }
+    }
+    h5{
+        padding-top: 30px;
+        @extend %fuente;
+        font-size: 60px;
+        @extend %margins;
+        font-weight: 500;
+
+        
+    }
+    .parrafo-libro{
+        margin-top: 10px;
+        @extend %fuente;
+        text-align: center;
+        font-size: 20px;
+        @extend %textsmargins;
+        font-family: 'Raleway', sans-serif;
+            
+    }
+    .form{
+        @extend %margins;
+
+        .mb-3{
+            margin-top: 20px;
+        }
+        h4{
+            font-size: 70px;
+            @extend %fuente;
+        }
+    }
+    footer{
+        background-color:map-get($general, bg-nav);
+        p{
+            font-size: 20px;
+            
+        }
+    }
+
+
+
+
+
+        
+
+
+
+
+

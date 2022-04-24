@@ -1,0 +1,141 @@
+.nav .text-sm-center, .red-social a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.form h4, .parrafo-libro, h5, h1, h2, h3, body, .card {
+  color: antiquewhite;
+  font-family: "Smooch Sans", sans-serif;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: antiquewhite;
+  font-size: 17px;
+}
+
+.form, h5, #galeria {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.parrafo-libro, .bio {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+body, .card {
+  padding: 0;
+  margin: 0;
+  background: url(/img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.card-body .card .logo, h1, h2 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 250px;
+  width: 250px;
+  opacity: 0.5;
+}
+
+h1, h2, h3 {
+  font-size: 90px;
+}
+
+.red-social {
+  text-align: center;
+}
+.red-social a:hover {
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: 0, 5s;
+}
+.red-social .fa-brands {
+  padding: 10px;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+.nav {
+  background-color: black;
+  margin-bottom: 50px;
+}
+.nav .nav-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+.nav .text-sm-center {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+.nav .text-sm-center:hover,
+.nav .nav-link_active {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #0b1111;
+  transition: 0.5s;
+}
+.nav .nav-toggle {
+  color: antiquewhite;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+  /*display: block;*/
+}
+
+.timelapses {
+  margin: 80px;
+  padding-bottom: 60px;
+}
+
+#galeria img {
+  width: 100%;
+  height: auto;
+}
+#galeria img:hover {
+  border: 5px solid white;
+}
+#galeria .col-lg-4 {
+  padding: 25px;
+}
+
+h5 {
+  padding-top: 30px;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.parrafo-libro {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.form .mb-3 {
+  margin-top: 20px;
+}
+.form h4 {
+  font-size: 70px;
+}
+
+footer {
+  background-color: black;
+}
+footer p {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
