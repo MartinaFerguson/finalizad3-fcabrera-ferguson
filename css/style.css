@@ -29,7 +29,8 @@
 body, .card {
   padding: 0;
   margin: 0;
-  background: url(/img-bootsrap/fondo4.jpg) no-repeat center center fixed;
+  background-color: black;
+  /*background: map-get($general, bg-body);*/
   background-size: cover;
 }
 
@@ -98,6 +99,7 @@ h1, h2, h3 {
 .timelapses {
   margin: 80px;
   padding-bottom: 60px;
+  align-items: center;
 }
 
 #galeria img {
